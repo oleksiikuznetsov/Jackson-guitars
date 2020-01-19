@@ -1,0 +1,32 @@
+.news-block {
+    min-height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-block a {
+    background-color: rgba(0,0,0,0.5);
+    display: block;
+    height: 100%;
+    color: #f1f1f1 !important;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+.news-block:hover h3{
+    border-bottom: 0.1px solid white;
+}
+.news-block:hover a{
+    background-color: inherit;
+    transition: all 0.5s ease;
+}
+.news-block h3 {
+    margin: auto;
+    padding: 40% 10px 20px;
+    width: 75%;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}

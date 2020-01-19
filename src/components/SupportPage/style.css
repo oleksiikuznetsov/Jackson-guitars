@@ -1,0 +1,56 @@
+.support-page {
+    background-color: black;
+}
+.support-header {
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(https://images.ctfassets.net/4jcppgetbqrc/3Nk98xEuIokommmwwqy8aM/85ba3ab03f0336c53bc1a7b97b98d4af/support-bg.jpg);
+    background-size: cover;
+}
+.support-header h1 {
+    font-size: 50px;
+}
+.product-bar {
+    height: 50px;
+    padding-left: 15%;
+    color: #939393;
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.product-bar a {
+    margin: 0 10px;
+}
+
+/* Main content styles */
+.support-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: scroll;
+    background-image: url(http://images.ctfassets.net/4jcppgetbqrc/4xgyPB04AoAW0EaswwQMs2/a8ddb95aae9ad236e4af2a75f82b97f3/color-burst.png);
+    background-position: right center;
+    background-size: cover;
+}
+.support-main-content-top {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15%;
+    margin:  20px 0;
+}
+.support-service-card-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 15%;
+}
+.support-contact {
+    display: flex;
+    justify-content: center;
+    margin:  20px 0;
+}

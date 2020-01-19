@@ -1,0 +1,35 @@
+.cards {
+    /* max-width: 271px; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    margin: 0 20px;
+}
+.cards h2 {
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+.cards-img {
+    max-height: 130px;
+    width: 80%;
+}
+.cards-img-block {
+    margin: 25px 0;
+}
+.cards p {
+    font-family: 'Palanquin', sans-serif;
+    letter-spacing: 0.5;
+    font-weight: 600;
+    font-size: 15px;
+}
+.cards a{
+    color: #939393;
+}
+.cards li {
+    list-style: outside none square;
+    margin: 15px 0;
+    font-size: 13px;
+}

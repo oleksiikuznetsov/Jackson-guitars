@@ -1,0 +1,8 @@
+.headerHr {
+    display: flex;
+    align-items: center;
+}
+.headerHr hr {
+    width: 41%;
+    height: 0;
+}

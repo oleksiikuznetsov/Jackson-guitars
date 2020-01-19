@@ -1,0 +1,13 @@
+.carousel.carousel-slider {
+    height: 100vh;
+}
+
+.main-carousel .control-dots {
+    position: absolute;
+    top: 50%;
+    left: calc(100vw - 100px);
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+}
