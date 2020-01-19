@@ -1,0 +1,87 @@
+/* Form styles */
+.navigation-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(http://images.ctfassets.net/4jcppgetbqrc/3BJBBkqCZi0mm2eaAc6S8c/3b929bfa7e30d3f4990f9d7868a5a18a/dealer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+.dealer-finder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    padding: 50px 0;
+}
+.dealer-finder .form {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.form-input {
+    width: 100%;
+}
+.form-input p{
+    color: #939393;
+    font-size: 0.65em;
+}
+.form-input input{
+    width: 93%;
+    margin-right: 10px;
+}
+.dealer-finder-button {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    font-weight: 600;
+    color: #f1f1f1;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Palanquin", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0 0 1rem;
+    padding: 1.3em 1rem;
+    transition: background-color 0.25s ease-out 0s, color 0.25s ease-out 0s;
+}
+
+/* ACCESS DEALERS Styles*/
+.dealers {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+}
+.dealers h2{
+    color: white;
+    margin: 0;
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 2px;
+}
+.dealers-logo {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 82rem;
+}
+.dealers-logo img{
+    transition: all 1s ease;
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+}
+.dealers-logo img:hover{
+    transform: scale(0.9);
+}
+.dealers-logo div{
+    flex: 0 0 25%;
+    max-width: 25%;
+}

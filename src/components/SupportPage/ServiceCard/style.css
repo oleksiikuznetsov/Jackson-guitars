@@ -1,0 +1,29 @@
+.support-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    width: 42%;
+}
+.support-service h2 {
+    margin: 0.5rem 0;
+}
+.support-service p {
+    margin: 0.5rem 0;
+}
+.support-service input {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    font-weight: 600;
+    color: #f1f1f1;
+    font-family: "Palanquin", sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    margin: 0.8rem 0;
+    padding: 0 1rem;
+    transition: background-color 0.25s ease-out 0s, color 0.25s ease-out 0s;
+    cursor: pointer;
+    flex-grow: 0.4;
+}

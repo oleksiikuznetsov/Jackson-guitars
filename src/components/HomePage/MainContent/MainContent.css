@@ -1,0 +1,37 @@
+.kv-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(http://images.ctfassets.net/4jcppgetbqrc/xqizbrH3dv9zLbnVTEoEu/9b2ca5be7b570e4bdafcb8d3138c7845/as-bg.jpg);
+}
+.kv-head-divs {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+}
+.kv-head-divs p, .kv-head-divs h2, .kv-head-divs button {
+    margin: 20px 0;
+}
+.kv-head-divs button {
+    width: 156px;
+    border: 1px solid #f1f1f1;
+    font-weight: 600;
+    color: #f1f1f1;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 1.3em 1rem;
+    background-color: inherit;
+}
+.kv-head-divs button:hover {
+    background-color: #202020;
+}
+.kv-body {
+    display: flex;
+    flex-direction: row;
+}
+.news-div {
+    display: flex;
+    flex-direction: row;
+}
